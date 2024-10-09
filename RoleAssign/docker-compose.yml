@@ -1,0 +1,10 @@
+﻿version: '3.4'
+
+services:
+  roleassign:
+    image: roleassign:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "80:80"
